@@ -1,0 +1,18 @@
+*{margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+font-family: Arial;
+text-align: center;
+outline: 0;}
+h1{text-align: center;color: white;}
+  body{background: #3498db; background-image:url("../img/greenday.jpg"); background-size: cover; }
+  input{width: 90%; height: 40px; border: 0px; padding: 10px; color:gray; margin-top: 10px; border-radius: 15px; text-align: left;}
+ input[type=submit]{ background-color: #3d6e7f; color: white; -webkit-transition: ease-in-out .3s;
+ -o-transition: ease-in-out .3s;
+ transition: ease-in-out .3s;   cursor:pointer; text-align: center;}
+
+ input[type=submit]:hover{ background-color: black; color: white;}
+  .Formulario{width: 100%;max-width: 450px;/* margin:0 auto; */margin-top:12.5%;margin-left: 100px;} 

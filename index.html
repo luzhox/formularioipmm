@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<div class="Formulario">
+		<h1>Formulario</h1>
+		<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='gracias.html';}"></iframe>
+		<form action="https://docs.google.com/forms/d/e/1FAIpQLSdd3GyUoZXRODZTssY1fiwpTp7XcmMK33UxK0bQGbKK-YmTsQ/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+			<input type="text" name="entry.909329223" placeholder="Nombre" required="">
+			<input type="text" name="entry.2128629224" placeholder="Apellido" required="">
+			<input type="text"  name="entry.622736560" placeholder="E-mail" required="">
+			<input type="text" name="entry.1438810898" placeholder="Distrito" required="">
+			<input type="submit" name="submit" value="Enviar" >
+
+		</form>
+	</div>
+</body>
+</html>
